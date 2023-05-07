@@ -1,0 +1,130 @@
+/* ----------
+CARD
+--------------*/
+
+.card {
+  padding: 4.8rem 2.4rem;
+  background-color: #fff;
+  border-radius: 2rem;
+}
+
+.card--flex {
+  display: flex;
+  flex-direction: column;
+  gap: 4.8rem;
+  padding-bottom: 2.4rem;
+}
+
+.card--hidden {
+  display: none;
+}
+
+.card--project {
+  justify-content: space-between;
+}
+
+.card--1nfluencers {
+  height: 785px;
+  background-color: #c95b4f;
+}
+
+/* ----------
+project cards 1st card small image*/
+
+.project-img {
+  flex-grow: 1;
+}
+
+/* ----------
+ARROWS
+--------------*/
+/* .material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+} */
+
+.arrow {
+  width: 3.2rem;
+}
+
+.arrow--forward {
+  align-self: flex-end;
+}
+
+.arrow--back {
+  align-self: flex-start;
+}
+
+.arrow-container {
+  display: flex;
+  justify-content: space-between;
+}
+/* ----------
+TAGS
+--------------*/
+
+.tag {
+  font-size: 1rem;
+  background-color: #0c0c0c;
+  border-radius: 3px;
+  padding: 0.4rem 0.8rem;
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 1.2rem;
+  display: inline-block;
+}
+
+/* ----------
+BUTTONS
+--------------*/
+
+.btn,
+.btn:link,
+.btn:visited {
+  font-size: 1.6rem;
+  text-decoration: none;
+  transition: all 0.2s;
+  color: #0c0c0c;
+  border-bottom: 3px solid #00d2c4;
+  padding: 0.4rem 0.2rem 0;
+  /*
+  padding: 0px 1px;
+  border-bottom-width: 3px;
+  border-bottom-style: solid;
+  border-bottom-color: var(--background-color);
+  text-decoration: none;
+  color: var(--text-color);
+  transition: 0.2s ease-out;
+  */
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #00d2c4;
+  /*
+  border-bottom-width: 3px;
+  border-bottom-style: solid;
+  border-bottom-color: var(--background-color);
+  transition: 0.2s ease-in;
+  /* cursor: ne-resize; */
+}
+
+/* ----------
+DOTS
+--------------*/
+
+.dots-container {
+  display: flex;
+  gap: 1.6rem;
+  align-self: center;
+}
+
+.dot {
+  border-radius: 50%;
+  height: 0.4rem;
+  width: 0.4rem;
+  background-color: #fff;
+}
+
+.dot--filled {
+  background-color: #000;
+}

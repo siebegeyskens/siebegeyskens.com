@@ -1,0 +1,44 @@
+* {
+  user-select: none;
+}
+
+body {
+  background-color: #edeef0;
+}
+
+.container {
+  margin: 1.6rem;
+}
+
+/* ----------
+CONTACT CARD
+--------------*/
+
+.contact-btns-container {
+  margin-top: 1.6rem;
+  display: flex;
+  gap: 1.6rem;
+}
+
+.coffee-cup {
+  font-size: 4rem;
+}
+
+/* ----------
+TIMELINE CARD
+--------------*/
+
+.h2--no-margin {
+  margin-bottom: 0;
+}
+
+/* ----------
+PROJECT CARDS
+--------------*/
+.img-container {
+  background: url(../../imgs/wfn-mockup2.jpg);
+  background-size: cover;
+  background-position: 50%;
+  flex-grow: 1;
+  width: 100%;
+}

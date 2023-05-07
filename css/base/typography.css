@@ -1,0 +1,46 @@
+/*************************
+*     Import fonts       *
+**************************/
+@font-face {
+  font-family: "PPMori";
+  src: url(../../fonts/PPMori-Regular.otf) format("otf");
+  font-weight: normal;
+  /* normal = 400 */
+}
+
+@font-face {
+  font-family: "PPMori";
+  src: url(../../fonts/PPMori-SemiBold.otf) format("otf");
+  font-weight: 600;
+  /* Semi Bold = 400 */
+}
+
+/*************************
+*         Fonts          *
+**************************/
+
+* {
+  font-family: "PPMori", sans-serif;
+}
+
+h1 {
+  font-size: 2.4rem;
+  font-weight: bold;
+  margin-bottom: 2.4rem;
+}
+
+h2 {
+  font-size: 2rem;
+  line-height: 130%;
+  margin-bottom: 1.6rem;
+}
+
+h3 {
+  font-size: 1.6rem;
+  margin-bottom: 1.6rem;
+}
+
+p {
+  font-size: 1.6rem;
+  line-height: 141%;
+}

@@ -1,0 +1,53 @@
+/* 
+
+--- 01 TYPGOGRAPHY SYSTEM
+
+Font sizes (px)
+10 / 16 / 20 / 24
+
+- Font weights: 
+Regular: 400
+Semi-bold 600
+
+- Line heights: 
+Default: 1
+Paragraph: 141%
+h2: 130%
+
+- Letter spacing: 
+
+--- 02 COLORS
+
+#0c0c0c
+#fff
+#EDEEF0
+#00d2c4
+
+#C95B4F
+
+
+--- 05 SHADOWS
+
+--- 06 BORDER-RADIUS
+
+tag: 3px
+
+--- 07 WHITESPACE
+
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+*/
+
+/* Base */
+@import url(base/typography.css);
+@import url(base/reset.css);
+
+/*components*/
+@import url(components/components.css);
+
+/*layout*/
+@import url(layout/grid.css);
+
+/*pages*/
+@import url(pages/home.css);
