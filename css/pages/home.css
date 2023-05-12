@@ -35,6 +35,8 @@ TIMELINE CARD
 /* ----------
 PROJECT CARDS
 --------------*/
+
+/* full sized image in project carousel card */
 .img-container {
   background: url(../../imgs/wfn-mockup2.jpg);
   background-size: cover;

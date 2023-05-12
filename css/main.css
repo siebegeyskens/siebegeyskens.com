@@ -1,8 +1,22 @@
+/* Base */
+@import url(base/typography.css);
+@import url(base/reset.css);
+
+/*components*/
+@import url(components/components.css);
+@import url(components/cards.css);
+
+/*layout*/
+@import url(layout/grid.css);
+
+/*pages*/
+@import url(pages/home.css);
+
 /* 
 
 --- 01 TYPGOGRAPHY SYSTEM
 
-Font sizes (px)
+- Font sizes (px)
 10 / 16 / 20 / 24
 
 - Font weights: 
@@ -18,19 +32,18 @@ h2: 130%
 
 --- 02 COLORS
 
-#0c0c0c
-#fff
-#EDEEF0
-#00d2c4
-
-#C95B4F
-
+- #0c0c0c
+- #fff
+- #EDEEF0
+- #00d2c4
+- #C95B4F
 
 --- 05 SHADOWS
 
 --- 06 BORDER-RADIUS
 
-tag: 3px
+- card: 
+- tag: 3px
 
 --- 07 WHITESPACE
 
@@ -39,15 +52,3 @@ tag: 3px
 
 */
 
-/* Base */
-@import url(base/typography.css);
-@import url(base/reset.css);
-
-/*components*/
-@import url(components/components.css);
-
-/*layout*/
-@import url(layout/grid.css);
-
-/*pages*/
-@import url(pages/home.css);

@@ -1,0 +1,36 @@
+/* ----------
+CARD
+--------------*/
+
+/* Regular cards with text */
+.card {
+    padding: 4.8rem 2.4rem;
+    background-color: #fff;
+    border-radius: 2rem;
+}
+  
+/* Carousel cards and project cards have a vert. spacing between button and img */
+.card--flex {
+    display: flex;
+    flex-direction: column;
+    gap: 4.8rem;
+    padding-bottom: 2.4rem;
+}
+
+/* Cards that are hidden from the carousel */
+.card--hidden {
+    display: none;
+}
+
+/* Project cards in mobile screen width have a fixed height so needs space in between */
+.card--project {
+    justify-content: space-between;
+}
+
+/* Specific heights and colours for project cards: */
+/* ----------------------------------------------- */
+.card--1nfluencers {
+    height: 785px;
+    background-color: #c95b4f;
+}
+
