@@ -18,6 +18,11 @@
   </head>
   <body>
     <main class="container grid grid--1-col">
+
+      <!-- ---  -->
+      <!-- hello -->
+      <!-- --- -->
+
       <article id="hello-card" class="card">
         <h1>Hello. ✌</h1>
         <p>
@@ -33,23 +38,65 @@
           great coffee is always a plus!
         </p>
       </article>
-      <article id="roadmap-card" class="card">
-        <h2>Roadmap 2023. 🌱</h2>
-        <p>
-          I am currently upgrading my skills in <strong>ReactJS</strong>,
-          delving deep into <strong>CSS</strong> and exploring
-          <strong>ThreeJS</strong> to create nifty 3D interactions.
-        </p>
+
+      <!-- --  -->
+      <!-- inf -->
+      <!-- --- -->
+
+      <article
+        id="inf-card--1"
+        class="card card--flex card--project card--inf inf-carousel-item"
+      >
+        <div class="project-text-container">
+          <span class="tag">1nfluencersmarketing</span>
+          <h2>3D interactivity that captivates and guides attention</h2>
+          <p>
+            Complete website design and development. A smooth 3D interaction
+            showcases the company's services and distinguishes it from
+            competitors. By leading the user from the landing page to the
+            services section, the design successfully highlights the company's
+            offerings and encourages engagement.
+          </p>
+        </div>
+        <img
+          class="project-card1-img"
+          src="./imgs/1nf-blob.png"
+          alt="Mockup of a mobile website"
+          width="100%"
+        />
+        <div class="dots-container">
+          <div class="dot dot--filled"></div>
+          <div class="dot"></div>
+        </div>
       </article>
-      <article id="timeline-card--1" class="card card--flex timeline-carousel-item">
+
+      <article
+        id="inf-card--2"
+        class="card card--flex card--project card--inf inf-carousel-item card--hidden"
+      >
+        <div class="img-container"></div>
+        <div class="dots-container">
+          <div class="dot"></div>
+          <div class="dot dot--filled"></div>
+        </div>
+      </article>
+
+      <!-- ---  -->
+      <!-- timeline -->
+      <!-- --- -->
+
+      <article
+        id="timeline-card--1"
+        class="card card--flex timeline-carousel-item"
+      >
         <div>
           <h3>2019-2022</h3>
           <h2>BSc. in Multimedia & Creative Technologies</h2>
           <p>Erasmus University College, Brussels</p>
         </div>
         <!-- <span class="material-symbols-outlined arrow arrow--forward">
-          arrow_forward_ios
-        </span> -->
+        arrow_forward_ios
+      </span> -->
         <svg
           class="arrow arrow--forward"
           xmlns="http://www.w3.org/2000/svg"
@@ -66,6 +113,7 @@
           />
         </svg>
       </article>
+
       <article
         id="timeline-card--2"
         class="card card--flex timeline-carousel-item card--hidden"
@@ -76,8 +124,8 @@
           <p>1nfluencersmarketing, Porto</p>
         </div>
         <!-- <span class="material-symbols-outlined arrow arrow--back">
-          arrow_back_ios
-        </span> -->
+        arrow_back_ios
+      </span> -->
         <svg
           class="arrow arrow--back"
           xmlns="http://www.w3.org/2000/svg"
@@ -94,6 +142,11 @@
           />
         </svg>
       </article>
+
+      <!-- ---  -->
+      <!-- skills -->
+      <!-- --- -->
+
       <article id="skills-card--1" class="card card--flex skills-carousel-item">
         <div>
           <h2 class="h2--no-margin">
@@ -103,8 +156,8 @@
           </h2>
         </div>
         <!-- <span class="material-symbols-outlined arrow card--flex-arrow">
-          arrow_forward_ios
-        </span> -->
+        arrow_forward_ios
+      </span> -->
         <svg
           class="arrow arrow--forward"
           xmlns="http://www.w3.org/2000/svg"
@@ -121,6 +174,7 @@
           />
         </svg>
       </article>
+
       <article
         id="skills-card--2"
         class="card card--flex skills-carousel-item card--hidden"
@@ -134,8 +188,8 @@
           </h2>
         </div>
         <!-- <span class="material-symbols-outlined arrow card--flex-arrow">
-          arrow_forward_ios
-        </span> -->
+        arrow_forward_ios
+      </span> -->
         <div class="arrow-container">
           <svg
             class="arrow arrow--back"
@@ -169,6 +223,7 @@
           </svg>
         </div>
       </article>
+
       <article
         id="skills-card--3"
         class="card card--flex skills-carousel-item card--hidden"
@@ -182,8 +237,8 @@
           </h2>
         </div>
         <!-- <span class="material-symbols-outlined arrow card--flex-arrow">
-          arrow_forward_ios
-        </span> -->
+        arrow_forward_ios
+      </span> -->
         <div class="arrow-container">
           <svg
             class="arrow arrow--back"
@@ -217,6 +272,7 @@
           </svg>
         </div>
       </article>
+
       <article
         id="skills-card--4"
         class="card card--flex skills-carousel-item card--hidden"
@@ -230,8 +286,8 @@
           </h2>
         </div>
         <!-- <span class="material-symbols-outlined arrow card--flex-arrow">
-          arrow_forward_ios
-        </span> -->
+        arrow_forward_ios
+      </span> -->
         <svg
           class="arrow arrow--back"
           xmlns="http://www.w3.org/2000/svg"
@@ -248,9 +304,14 @@
           />
         </svg>
       </article>
+
+      <!-- ---  -->
+      <!-- wfn -->
+      <!-- --- -->
+
       <article
-        id="influencers-card--1"
-        class="card card--flex card--project card--1nfluencers 1nfluencers-carousel-item"
+        id="wfn-card--1"
+        class="card card--flex card--project card--wfn wfn-carousel-item"
       >
         <div class="project-text-container">
           <span class="tag">words for nature</span>
@@ -266,6 +327,7 @@
           </p>
         </div>
         <img
+          class="project-card1-img"
           src="./imgs/wfn-mockup1.jpg"
           alt="Mockup of a mobile website"
           width="100%"
@@ -275,13 +337,131 @@
           <div class="dot"></div>
         </div>
       </article>
+
       <article
-        id="influencers-card--2"
-        class="card card--flex card--project card--1nfluencers 1nfluencers-carousel-item card--hidden"
+        id="wfn-card--2"
+        class="card card--flex card--project card--wfn wfn-carousel-item card--hidden"
       >
         <div class="img-container"></div>
         <div class="dots-container">
           <div class="dot"></div>
+          <div class="dot dot--filled"></div>
+        </div>
+      </article>
+
+      <!-- ---  -->
+      <!-- sesh -->
+      <!-- --- -->
+
+      <article
+        id="sesh-card--1"
+        class="card card--flex card--project card--sesh sesh-carousel-item"
+      >
+        <div class="project-text-container">
+          <span class="tag">sesh</span>
+          <h2>Log and share surf sessions</h2>
+          <p>
+            Design and development of Sesh, a platform for North Sea surf
+            enthusiasts that enables users to log and share their surf sessions
+            while automatically tracking the surf-weather conditions. This
+            unique feature provides surfers with valuable insights into the ways
+            of the stormy sea, helping them to predict the best surfing
+            conditions. Cowabunga!
+          </p>
+        </div>
+        <img
+          class="project-card1-img"
+          src="./imgs/placeholder-3-2.png"
+          alt="Mockup of a mobile website"
+          width="100%"
+        />
+        <div class="dots-container">
+          <div class="dot dot--filled"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+        </div>
+      </article>
+
+      <article
+        id="sesh-card--2"
+        class="card card--flex card--project card--sesh sesh-carousel-item card--hidden"
+      >
+        <div class="img-container"></div>
+        <div class="dots-container">
+          <div class="dot"></div>
+          <div class="dot dot--filled"></div>
+          <div class="dot"></div>
+        </div>
+      </article>
+
+      <article
+        id="sesh-card--3"
+        class="card card--flex card--project card--sesh sesh-carousel-item card--hidden"
+      >
+        <div class="img-container"></div>
+        <div class="dots-container">
+          <div class="dot"></div>
+          <div class="dot"></div>
+          <div class="dot dot--filled"></div>
+        </div>
+      </article>
+
+      <!-- ---  -->
+      <!-- roadmap -->
+      <!-- --- -->
+
+      <article id="roadmap-card" class="card">
+        <h2>Roadmap 2023. 🌱</h2>
+        <p>
+          I am currently upgrading my skills in <strong>ReactJS</strong>,
+          delving deep into <strong>CSS</strong> and exploring
+          <strong>ThreeJS</strong> to create nifty 3D interactions.
+        </p>
+      </article>
+
+      <!-- ---  -->
+      <!-- aLive -->
+      <!-- --- -->
+
+      <article
+        id="a-live-card--1"
+        class="card card--flex card--project card--a-live a-live-carousel-item"
+      >
+        <div class="project-text-container">
+          <span class="tag">a live festival</span>
+          <h2>Mobile website design</h2>
+          <p>
+            A mobile-focused website design for a fictional festival. My
+            approach involved conceptualizing the festival to create a
+            captivating visual identity that resonates with the target audience.
+            The resulting design is optimized for mobile devices, delivering an
+            engaging user experience that seamlessly guides visitors through the
+            festival's offerings.
+          </p>
+        </div>
+        <img
+          class="project-card1-img"
+          src="./imgs/placeholder-3-2.png"
+          alt="Mockup of a mobile website"
+          width="100%"
+        />
+        <div class="dots-container">
+          <div class="dot dot--filled"></div>
+          <div class="dot dot--grey"></div>
+        </div>
+      </article>
+
+      <!-- ---  -->
+      <!-- contact -->
+      <!-- --- -->
+
+      <article
+        id="a-live-card--2"
+        class="card card--flex card--project card--a-live a-live-carousel-item card--hidden"
+      >
+        <div class="img-container"></div>
+        <div class="dots-container">
+          <div class="dot dot--grey"></div>
           <div class="dot dot--filled"></div>
         </div>
       </article>

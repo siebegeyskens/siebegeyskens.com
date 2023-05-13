@@ -88,6 +88,10 @@ DOTS
   background-color: #fff;
 }
 
+.dot--grey {
+  background-color: #dbdbdb;
+}
+
 .dot--filled {
   background-color: #000;
 }

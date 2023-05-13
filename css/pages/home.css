@@ -38,9 +38,29 @@ PROJECT CARDS
 
 /* full sized image in project carousel card */
 .img-container {
-  background: url(../../imgs/wfn-mockup2.jpg);
   background-size: cover;
   background-position: 50%;
   flex-grow: 1;
   width: 100%;
 }
+
+#wfn-card--2 .img-container {
+  background-image: url(../../imgs/wfn-mockup2.jpg);
+}
+
+#inf-card--2 .img-container {
+  background-image: url(../../imgs/1nf-mockup.png);
+}
+
+#sesh-card--2 .img-container {
+  background-image: url(../../imgs/placeholder.png);
+}
+
+#sesh-card--3 .img-container {
+  background-image: url(../../imgs/placeholder.png);
+}
+
+#a-live-card--2 .img-container {
+  background-image: url(../../imgs/placeholder.png);
+}
+

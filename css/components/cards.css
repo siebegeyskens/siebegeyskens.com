@@ -25,12 +25,32 @@ CARD
 /* Project cards in mobile screen width have a fixed height so needs space in between */
 .card--project {
     justify-content: space-between;
+    align-items: center;
 }
 
 /* Specific heights and colours for project cards: */
 /* ----------------------------------------------- */
-.card--1nfluencers {
-    height: 785px;
+.card--wfn {
+    /* height: 78.5em; */
     background-color: #c95b4f;
 }
+
+.card--inf {
+    /* height: 72.6em; */
+    background-color: #DEDAFF;
+}
+
+.card--sesh {
+    background-color: #7BC7BD;
+}
+
+.card--a-live {
+    background-color: #fff;
+}
+
+.project-card1-img {
+    max-width: 500px;
+}
+
+
 
