@@ -1,0 +1,117 @@
+/****************************/
+/* ABOVE 768px (tablet) */
+/****************************/
+/* 48em * 16px =  768px*/
+
+@media screen and (min-width: 48em) {
+  #hello-card {
+    grid-area: hello;
+  }
+
+  #inf-card--1,
+  #inf-card--2 {
+    grid-area: project-inf;
+  }
+
+  #timeline-card--1,
+  #timeline-card--2 {
+    grid-area: timeline;
+  }
+
+  #skills-card--1,
+  #skills-card--2,
+  #skills-card--3,
+  #skills-card--4 {
+    grid-area: skills;
+  }
+
+  #contact-card-sm {
+    grid-area: contact-sm;
+  }
+
+  #wfn-card--2,
+  #wfn-card--1 {
+    grid-area: project-wfn;
+  }
+
+  #sesh-card--1,
+  #sesh-card--2,
+  #sesh-card--3 {
+    grid-area: project-sesh;
+  }
+
+  #roadmap-card {
+    grid-area: roadmap;
+  }
+
+  #a-live-card--1,
+  #a-live-card--2 {
+    grid-area: project-a-live;
+  }
+
+  #contact-card {
+    grid-area: contact;
+  }
+
+  .grid {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto 50rem 20rem 50rem auto auto;
+    grid-template-areas:
+      "hello timeline"
+      "hello skills"
+      "contact-sm project-wfn"
+      "project-inf project-wfn"
+      "project-inf project-a-live"
+      "project-sesh project-a-live"
+      "project-sesh roadmap"
+      "contact contact";
+  }
+
+  /* show the extra contact card */
+  #contact-card-sm {
+    display: block;
+  }
+
+  .hello-text {
+    font-size: 1.8rem;
+  }
+
+  .card--flex {
+    padding-bottom: 3.2rem;
+  }
+
+  .container {
+    margin: 3.2rem;
+  }
+}
+
+/****************************/
+/* ABOVE 992px (desktop) */
+/****************************/
+/* 62em * 16px =  992px*/
+
+@media screen and (min-width: 62em) {
+  .grid {
+    gap: 2rem;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: auto min-content 54rem 24rem 54rem min-content auto;
+    grid-template-areas:
+      "hello timeline skills"
+      "contact-sm project-wfn project-wfn"
+      "project-inf project-wfn project-wfn"
+      "project-inf project-a-live project-a-live"
+      "project-sesh project-a-live project-a-live"
+      "project-sesh roadmap roadmap"
+      "contact contact contact";
+    justify-content: space-between;
+  }
+
+  .card {
+    padding: 4.8rem 3.2rem;
+  }
+
+  .tag {
+    font-size: 1.2rem;
+    margin-bottom: 1.6rem;
+  }
+}

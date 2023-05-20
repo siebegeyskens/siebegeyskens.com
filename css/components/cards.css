@@ -4,53 +4,52 @@ CARD
 
 /* Regular cards with text */
 .card {
-    padding: 4.8rem 2.4rem;
-    background-color: #fff;
-    border-radius: 2rem;
+  padding: 4.8rem 2.4rem;
+  background-color: #fff;
+  border-radius: 2rem;
 }
-  
+
 /* Carousel cards and project cards have a vert. spacing between button and img */
 .card--flex {
-    display: flex;
-    flex-direction: column;
-    gap: 4.8rem;
-    padding-bottom: 2.4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4.8rem;
+  padding-bottom: 2.4rem;
+  justify-content: space-between;
 }
 
 /* Cards that are hidden from the carousel */
 .card--hidden {
-    display: none;
+  display: none;
 }
 
 /* Project cards in mobile screen width have a fixed height so needs space in between */
 .card--project {
-    justify-content: space-between;
-    align-items: center;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
 }
 
 /* Specific heights and colours for project cards: */
 /* ----------------------------------------------- */
 .card--wfn {
-    /* height: 78.5em; */
-    background-color: #c95b4f;
+  /* height: 78.5em; */
+  background-color: #c95b4f;
 }
 
 .card--inf {
-    /* height: 72.6em; */
-    background-color: #DEDAFF;
+  /* height: 72.6em; */
+  background-color: #dedaff;
 }
 
 .card--sesh {
-    background-color: #7BC7BD;
+  background-color: #7bc7bd;
 }
 
 .card--a-live {
-    background-color: #fff;
+  background-color: #fff;
 }
 
 .project-card1-img {
-    max-width: 500px;
+  max-width: 500px;
 }
-
-
-

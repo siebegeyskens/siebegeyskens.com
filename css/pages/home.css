@@ -4,10 +4,13 @@
 
 body {
   background-color: #edeef0;
+  display: flex;
+  justify-content: center;
 }
 
 .container {
   margin: 1.6rem;
+  max-width: 114rem;
 }
 
 /* ----------
@@ -22,6 +25,14 @@ CONTACT CARD
 
 .coffee-cup {
   font-size: 4rem;
+}
+
+/* ----------
+CONTACT CARD
+--------------*/
+
+#contact-card-sm {
+  display: none;
 }
 
 /* ----------
@@ -63,4 +74,3 @@ PROJECT CARDS
 #a-live-card--2 .img-container {
   background-image: url(../../imgs/placeholder.png);
 }
-

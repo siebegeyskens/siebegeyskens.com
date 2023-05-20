@@ -7,6 +7,7 @@ ARROWS
 
 .arrow {
   width: 3.2rem;
+  cursor: pointer;
 }
 
 .arrow--forward {

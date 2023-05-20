@@ -12,6 +12,9 @@
 /*pages*/
 @import url(pages/home.css);
 
+/* queries as last */
+@import url(layout/queries.css);
+
 /* 
 
 --- 01 TYPGOGRAPHY SYSTEM
@@ -53,4 +56,3 @@ h2: 130%
 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
 
 */
-
