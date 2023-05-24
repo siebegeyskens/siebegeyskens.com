@@ -18,8 +18,6 @@ window.onload = () => {
   onresize = (event) => {
     // set all the heights
 
-    console.log(lastWidth);
-
     if (window.screen.width < 768) {
       wfnCarousel.setItemsHeight();
       infCarousel.setItemsHeight();

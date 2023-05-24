@@ -57,6 +57,10 @@ PROJECT CARDS
 
 #wfn-card--2 .img-container {
   background-image: url(../../imgs/wfn-mockup2.jpg);
+
+  @supports (background-image: url("../../imgs/wfn-mockup2.webp")) {
+    background-image: url("../../imgs/wfn-mockup2.webp");
+  }
 }
 
 #inf-card--2 .img-container {

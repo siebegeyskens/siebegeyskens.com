@@ -12,6 +12,8 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
     /> -->
+    <link rel="icon" href="./imgs/favicon/favicon-64.png" />
+    <link rel="apple-touch-icon" href="./imgs/favicon/favicon-180.png" />
     <title>Siebe Geyskens - Creative Developer</title>
     <link rel="stylesheet" href="./css/main.css" />
     <script src="./js/index.js" type="module"></script>
@@ -57,12 +59,24 @@
             offerings and encourages engagement.
           </p>
         </div>
-        <img
-          class="project-card1-img"
-          src="./imgs/1nf-blob.png"
-          alt="Mockup of a mobile website"
-          width="100%"
-        />
+        <picture>
+          <source
+            class="project-card1-img"
+            srcset="./imgs/1nf-blob.webp"
+            type="image/webp"
+          />
+          <source
+            class="project-card1-img"
+            srcset="/imgs/1nf-blob-min.png"
+            type="image/webp"
+          />
+          <img
+            class="project-card1-img"
+            src="./imgs/1nf-blob.webp"
+            alt="Mockup of a mobile website"
+            width="100%"
+          />
+        </picture>
         <div class="dots-container">
           <div class="dot dot--filled"></div>
           <div class="dot"></div>
@@ -343,12 +357,24 @@
             nature.
           </p>
         </div>
-        <img
-          class="project-card1-img"
-          src="./imgs/wfn-mockup1.jpg"
-          alt="Mockup of a mobile website"
-          width="100%"
-        />
+        <picture>
+          <source
+            class="project-card1-img"
+            srcset="./imgs/wfn-mockup1-1000.webp"
+            type="image/webp"
+          />
+          <source
+            class="project-card1-img"
+            srcset="./imgs/wfn-mockup1-1000-min.jpg"
+            type="image/webp"
+          />
+          <img
+            class="project-card1-img"
+            src="./imgs/wfn-mockup1-1000.webp"
+            alt="Mockup of a mobile website"
+            width="100%"
+          />
+        </picture>
         <div class="dots-container">
           <div class="dot dot--filled"></div>
           <div class="dot"></div>
