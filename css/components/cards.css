@@ -30,6 +30,11 @@ CARD
   cursor: pointer;
 }
 
+.project-card1-picture {
+  display: flex;
+  justify-content: center;
+}
+
 /* Specific heights and colours for project cards: */
 /* ----------------------------------------------- */
 .card--wfn {

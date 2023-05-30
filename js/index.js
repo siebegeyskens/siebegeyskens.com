@@ -18,7 +18,7 @@ window.onload = () => {
   onresize = (event) => {
     // set all the heights
 
-    if (window.screen.width < 768) {
+    if (window.innerWidth < 768) {
       wfnCarousel.setItemsHeight();
       infCarousel.setItemsHeight();
       seshCarousel.setItemsHeight();
@@ -28,15 +28,14 @@ window.onload = () => {
     // if came from 767 then set the items height to that of the grid
     // So that means if jumping from mobile to tablet set the project items height to auto
     // So that the grid settings will define the hight of the items
-    if (lastWidth <= 767 && window.screen.width >= 768) {
+    if (lastWidth <= 767 && window.innerWidth >= 768) {
       wfnCarousel.resetItemsHeight();
       infCarousel.resetItemsHeight();
       seshCarousel.resetItemsHeight();
       aLiveCarousel.resetItemsHeight();
-      console.log("reset!");
     }
 
-    lastWidth = window.screen.width;
+    lastWidth = window.innerWidth;
   };
 
   // ---------------------------------------------------------------
