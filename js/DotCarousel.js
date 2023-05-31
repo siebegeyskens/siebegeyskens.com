@@ -12,6 +12,7 @@ export default class DotCarousel {
   constructor(itemsClassName) {
     this.items = Array.from(document.getElementsByClassName(itemsClassName));
     this.position = 0;
+    this.windowLastWidth;
     // this.lastScreenWidth;
     this.init();
 
@@ -46,7 +47,8 @@ export default class DotCarousel {
   // set the height all all the items based on the first items height
   // ------------------------------------------
 
-  // set the items hight to auto
+  //set the project items height to auto
+  // So that the grid settings will define the hight of the items
   resetItemsHeight = () => {
     this.items.forEach((card, i) => {
       if (i !== 0) {
@@ -90,22 +92,16 @@ export default class DotCarousel {
       this.setItemsHeight();
     }
 
-    /*
-    onresize = (event) => {
-      console.log("resize!");
+    window.addEventListener("resize", () => {
+      // if going from larger to mobile set items height
       if (window.innerWidth < 768) {
         this.setItemsHeight();
       }
-
-      // if came from 767 then set the items height to that of the grid
-      // So that means if jumping from mobile to tablet set the project items height to auto
-      // So that the grid settings will define the hight of the items
-      if (this.lastScreenWidth <= 767 && window.innerWidth >= 768) {
+      // if going from mobile to tablet or larger reset the items height
+      if (this.windowLastWidth < 768 && window.innerWidth >= 768) {
         this.resetItemsHeight();
       }
-
-      this.lastScreenWidth = window.innerWidth;
-    };
-    */
+      this.windowLastWidth = window.innerWidth;
+    });
   }
 }
