@@ -1,5 +1,4 @@
 # My portfolio site
 
-## Web analytics
-
-- https://counter.dev/
+- Hosting: vercel
+- Registrar: cloudfare
